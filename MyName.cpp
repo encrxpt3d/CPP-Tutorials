@@ -4,7 +4,8 @@
 
 using std::cout, std::cin, std::string, std::endl;
 
-int main() {
+int main()
+{
     cout << "What is your name?\n";
 
     string name;
@@ -12,6 +13,6 @@ int main() {
     cin >> name;
     cout << "Your name is: " << name << endl;
 
-    system("read -p 'Press Enter to continue . . .' var");
+    system("read -p 'Press [Any Key] to continue . . .' var");
     return 0;
 }

@@ -1,10 +1,10 @@
 #include <iostream>
 #include <stdlib.h>
-#include <string>
 
 using namespace std;
 
-int main() {
+int main()
+{
     cout << "Do you want to play a game? (y/n): ";
 
     char response = getchar();
