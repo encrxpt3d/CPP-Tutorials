@@ -44,25 +44,11 @@ class Person {
             FullName = fullName;
         }
 
-        void setAge(int age) {
-            Age = age;
-        }
-
-        string getFirstName() {
-            return FirstName;
-        }
-
-        string getLastName() {
-            return LastName;
-        }
-
-        string getFullName() {
-            return FullName;
-        }
-
-        int getAge() {
-            return Age;
-        }
+        void setAge(int age) { Age = age; }
+        string getFirstName() { return FirstName; }
+        string getLastName() { return LastName; }
+        string getFullName() { return FullName; }
+        int getAge() { return Age; }
 };
 
 class BankAccount: public Person {
@@ -76,13 +62,8 @@ class BankAccount: public Person {
             Balance = 0;
         }
 
-        string getAccountHolder() {
-            return AccountHolder;
-        }
-
-        int getBalance() {
-            return Balance;
-        }
+        string getAccountHolder() { return AccountHolder; }
+        int getBalance() { return Balance; }
 };
 
 // Main
